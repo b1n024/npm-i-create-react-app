@@ -2,6 +2,17 @@
     background-color: black;
     margin-left: 16px;
     margin-right: 16px;
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+}
+
+.wd-margin {
+    margin: 12px;
+}
+
+.wd-paragraph {
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
 }
 
 .wd-rounded-corners-all-around {
@@ -24,7 +35,11 @@
     float: right;
     margin-right: 12px;
 }
-
+.wd-setting-float-right {
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+}
 .wd-float-left {
     float: left;
     margin-left: 30px;
@@ -35,6 +50,7 @@
     color: rgb(29, 161, 242);
     font-size: 15px;
     padding: 16px;
+    font-family: Arial;
 
 }
 
@@ -42,6 +58,7 @@
     float: left;
     color: rgb(110, 118, 125);
     font-size: 15px;
+    font-family: Arial;
     padding: 16px;
 }
 
