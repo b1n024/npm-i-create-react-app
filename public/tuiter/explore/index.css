@@ -1,0 +1,93 @@
+.wd-body {
+    background-color: black;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.wd-rounded-corners-all-around {
+    border-radius: 50px;
+}
+
+.wd-fg-color-white {
+    color: white;
+}
+
+.wd-bg-color-darkgray {
+    background-color: darkgray;
+}
+
+/*.wd-margin-right-left{*/
+/*    margin-right: 16px;*/
+/*    margin-right: 16px;*/
+/*}*/
+.wd-float-right {
+    float: right;
+    margin-right: 12px;
+}
+
+.wd-float-left {
+    float: left;
+    margin-left: 30px;
+}
+
+.wd-highlighted-link {
+    float: left;
+    color: rgb(29, 161, 242);
+    font-size: 15px;
+    padding: 16px;
+
+}
+
+.wd-normal-link {
+    float: left;
+    color: rgb(110, 118, 125);
+    font-size: 15px;
+    padding: 16px;
+}
+
+.wd-pos-relative-nudge-left {
+    position: relative;
+    left: 20px;
+}
+
+.wd-dimension-underscore {
+    width: 50px;
+    height: 3px;
+}
+
+.wd-bg-color-blue {
+    background-color: rgb(29, 161, 242);
+}
+
+.wd-pos-relative-down-right {
+    position: relative;
+    left: 15px;
+    top: 40px;
+}
+
+.wd-topic-font-color {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+    font-family: Arial;
+    font-weight: normal;
+}
+
+/*TODO:change to white*/
+.wd-title-font-weight {
+    font-weight: bold;
+    color: white;
+    font-family: Arial;
+}
+
+.wd-media-font-bold {
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    font-family: Arial;
+}
+
+.wd-media-img-size-float-right {
+    float: right;
+    border-radius: 10px;
+}
+
