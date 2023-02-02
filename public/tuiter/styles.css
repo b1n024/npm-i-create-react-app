@@ -1,0 +1,25 @@
+.wd-body {
+    background-color: black;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+}
+
+.wd-paragraph-border {
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+
+}
+
+.wd-paragraph-margin {
+    margin-left: 16px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.wd-font-family {
+    font-family: Arial;
+}
