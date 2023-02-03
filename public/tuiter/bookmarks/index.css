@@ -82,13 +82,18 @@
 
 .wd-icon {
     margin-top: 12px;
-    color: white;
 
+
+}
+
+.wd-icon-color {
+    color: lightgray;
 }
 
 .wd-amount {
     margin-left: 12px;
     font-size: 15px;
+    color: lightgray;
 }
 
 .wd-clicked-like {
@@ -98,9 +103,10 @@
 
 }
 
-.wd-flex{
+.wd-flex {
     display: flex;
 }
-.wd-flex-icon{
+
+.wd-flex-icon {
     flex: 1;
 }
