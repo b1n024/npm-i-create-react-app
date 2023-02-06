@@ -27,6 +27,9 @@
     background-color: darkgray;
 }
 
+.wd-border-color-lightgray{
+    border-color: lightgray;
+}
 /*.wd-margin-right-left{*/
 /*    margin-right: 16px;*/
 /*    margin-right: 16px;*/
@@ -99,12 +102,14 @@
 .wd-media-font-bold {
     font-size: 13px;
     font-weight: bold;
-    color: white;
+
     font-family: Arial;
 }
 
 .wd-media-img-size-float-right {
     float: right;
     border-radius: 10px;
+    max-height: 100px;
+    /*margin: 10px;*/
 }
 

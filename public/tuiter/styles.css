@@ -23,3 +23,34 @@
 .wd-font-family {
     font-family: Arial;
 }
+
+.wd-full-width {
+    width: 100%;
+}
+
+.wd-font-bold {
+    font-weight: bold;
+}
+
+.wd-avatar {
+    float: left;
+    height: 48px;
+    width: 48px;
+    border-radius: 50px;
+}
+
+.wd-float-right{
+    float: right;
+}
+
+.wd-flex{
+    display: flex;
+}
+
+.wd-margin-left-50 {
+    margin-left: 60px;
+}
+
+.wd-font-lightgray{
+    color: lightgray;
+}
