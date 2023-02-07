@@ -39,11 +39,11 @@
     border-radius: 50px;
 }
 
-.wd-float-right{
+.wd-float-right {
     float: right;
 }
 
-.wd-flex{
+.wd-flex {
     display: flex;
 }
 
@@ -51,6 +51,44 @@
     margin-left: 60px;
 }
 
-.wd-font-lightgray{
+.wd-font-lightgray {
     color: lightgray;
+}
+
+.wd-twitter-color {
+    color: rgb(29 161 242);
+}
+
+.btn-primary.wd-override-bs {
+    background-color: rgb(29 161 242);
+    border-color: rgb(29 161 242);
+    /*border-width: 10px;*/
+    /*border-radius: 20px;*/
+    /*border-style: dashed;*/
+    /*font-size: 2em;*/
+    font-weight: bolder;
+}
+
+.wd-bg-color-search {
+    background-color: #eff3f4;
+}
+
+.active.wd-override-active {
+    border-style: hidden;
+    font-weight: bold;
+
+}
+
+.active.wd-override-active {
+    border-style: hidden;
+    font-weight: bold;
+
+}
+
+.nav-item.wd-override-nav {
+    border-color: white;
+    border-bottom: 5px solid #1DA1F2;
+
+    /*height: 50px;*/
+
 }

@@ -17,6 +17,7 @@
 
 .wd-rounded-corners-all-around {
     border-radius: 50px;
+    border-color: white;
 }
 
 .wd-fg-color-white {
@@ -112,4 +113,10 @@
     max-height: 100px;
     /*margin: 10px;*/
 }
+/*.nav-item.wd-override-nav-item-font{*/
+/*    font-weight: 2px;*/
 
+/*}*/
+.nav-link.wd-override-nav-link-font{
+    color: darkgray;
+}
