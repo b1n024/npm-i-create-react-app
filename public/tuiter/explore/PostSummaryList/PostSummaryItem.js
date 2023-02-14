@@ -1,35 +1,41 @@
-const PostSummaryItem = (item) => {
-    if (item.tweets) {
+const PostSummaryItem = (post) => {
+    if (post.tweets) {
         return (`
        <li class="list-group-item">
             <div class="row">
-                <div class="col ">
-                    <div class="text-secondary">${item.topic}</div>
-                    <div><span class="fw-bolder">${item.userName} </span> <i class="fa-solid fa-circle-check"></i><span
-                            class="text-secondary"> - ${item.time}</span></div>
-                    <div class="fw-bolder">${item.title}
+            <div class="col ">
+                <div class="wd-media-img-size-float-right">
+                        <img src=${post.image} class="wd-media-img-size-float-right">
                     </div>
-                </div>
-                <div class="col-4"><img alt="react" class="float-end rounded" height="100px" src=${item.image}
-                                        width="100px"></div>
-            </div>
-             <div class="text-secondary">${item.tweets}</div>
+                    <div class="wd-topic-font-color">${post.topic}</div>
+                    <div><span class="wd-font-bold">${post.userName} </span><i class="fas fa-check-circle"></i>
+                        <span class="wd-topic-font-color"> - ${post.time}</span>
+
+                    </div>
+                    <div class="wd-media-font-bold">
+                        ${post.title}
+                    </div>
+                    <div class="wd-topic-font-color">${post.tweets}</div>
+                    </div>
        </li>
    `);
     } else {
         return (`
        <li class="list-group-item">
             <div class="row">
-                <div class="col ">
-                    <div class="text-secondary">${item.topic}</div>
-                    <div><span class="fw-bolder">${item.userName} </span> <i class="fa-solid fa-circle-check"></i><span
-                            class="text-secondary"> - ${item.time}</span></div>
-                    <div class="fw-bolder">${item.title}
+            <div class="col ">
+                <div class="wd-media-img-size-float-right">
+                        <img src=${post.image} class="wd-media-img-size-float-right">
                     </div>
-                </div>
-                <div class="col-4"><img alt="react" class="float-end rounded" height="100px" src=${item.image}
-                                        width="100px"></div>
-            </div>
+                    <div class="wd-topic-font-color">${post.topic}</div>
+                    <div><span class="wd-font-bold">${post.userName} </span><i class="fas fa-check-circle"></i>
+                        <span class="wd-topic-font-color"> - ${post.time}</span>
+
+                    </div>
+                    <div class="wd-media-font-bold">
+                        ${post.title}
+                    </div>
+                    
        </li>
    `);
     }

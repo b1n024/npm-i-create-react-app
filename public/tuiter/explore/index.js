@@ -1,6 +1,7 @@
 import WhoToFollowList from "./WhoToFollowList";
 import NavigationSidebar from "./NavigationSidebar";
 import PostSummaryList from "./PostSummaryList";
+import ExploreComponent from "./ExploreScreen/ExploreComponent";
 // import PostSummaryList from "./PostSummaryList";
 
 function exploreComponent() {
@@ -13,7 +14,7 @@ function exploreComponent() {
    </div>
    <div class="col-10 col-lg-7 col-xl-6 bg-primary">
     <h3>ExploreComponent</h3>
-    ${PostSummaryList()}
+    ${ExploreComponent()}
    </div>
    <div class="d-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4 bg-danger">
 <!--    <h3>WhoToFollowList </h3>-->

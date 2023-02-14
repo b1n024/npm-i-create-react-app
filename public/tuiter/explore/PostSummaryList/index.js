@@ -3,8 +3,8 @@ import exploreItems from "./posts.js";
 const PostSummaryList = () => {
     return(`
            <ul class="list-group ">
-              ${exploreItems.map(item=> {
-        return (PostSummaryItem(item));
+              ${exploreItems.map(post=> {
+        return (PostSummaryItem(post));
     }).join('')}
            </ul>
     `);
