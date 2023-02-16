@@ -52,7 +52,7 @@
 
 .wd-hyperlink-img {
     margin-top: 12px;
-    width: 529px;
+    width: 504px;
     max-height: 264px;
     border-radius: 20px 20px 0px 0px;
     overflow: hidden;
@@ -65,6 +65,9 @@
 
 .wd-rounded-corners-bottom {
     border-radius: 0px 0px 20px 20px;
+}
+.wd-rounded-corners-all {
+    border-radius: 20px 20px 20px 20px;
 }
 
 .wd-text {
