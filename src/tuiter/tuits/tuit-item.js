@@ -5,7 +5,8 @@ import {deleteTuit} from "./tuits-reducer";
 const TuitItem = ({post}) => {
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id));
+        dispatch(deleteTuitThunk(id));
+
     }
     return (
 
@@ -19,7 +20,7 @@ const TuitItem = ({post}) => {
                 <span className="wd-author-name">{post.userName} </span>
                 <span className="wd-author-handle">@{post.handle} · {post.time}</span>
                 <span><i className="bi bi-x-lg float-end "
-                   onClick={() => deleteTuitHandler(post._id)}></i></span>
+                         onClick={() => deleteTuitHandler(post._id)}></i></span>
                 <div className="wd-content">
                     {post.tweet}
 
