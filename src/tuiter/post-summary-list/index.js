@@ -7,9 +7,10 @@ const PostSummaryList = () => {
     const postsArray = useSelector(state => state.tuits)
     return(
         <ul className="list-group">
-            {
+            {postsArray &&
                 postsArray.map(post =>
                     <PostSummaryItem
+                        key={post._id}
                          post={post}/> )
             }
         </ul>

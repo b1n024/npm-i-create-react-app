@@ -26,6 +26,5 @@ export const deleteTuit = async (tid) => {
 }
 
 
-export const updateTuit = async (tuit) => {
-}
+
 

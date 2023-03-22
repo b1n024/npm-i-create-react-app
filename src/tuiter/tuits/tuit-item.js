@@ -1,5 +1,6 @@
 import {useDispatch} from "react-redux";
 import {deleteTuit} from "./tuits-reducer";
+import {deleteTuitThunk, updateTuitThunk} from "../../services/tuits-thunks";
 
 
 const TuitItem = ({post}) => {
@@ -47,11 +48,14 @@ const TuitItem = ({post}) => {
 
                         </a>
                         </div>
-                        <div className="wd-clicked-like wd-flex-icon"><a href="#">
-                            <i className={"fas fa-heart" + " " + (post.liked ? "text-danger" : "")}></i>
-                            <span className="wd-amount">{post.likes}</span>
-                        </a>
+                        <div>
+                            Likes: {post.likes}
+                            <i onClick={() => dispatch(updateTuitThunk({
+                                ...post,
+                                likes: post.likes + 1
+                            }))} className="bi bi-heart-fill me-2 text-danger"></i>
                         </div>
+
 
                         <div className="wd-clicked-like wd-flex-icon"><a href="#">
                             <i className="fas fa-share-alt"></i>
