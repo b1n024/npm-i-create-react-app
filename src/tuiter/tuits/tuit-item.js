@@ -55,6 +55,13 @@ const TuitItem = ({post}) => {
                                 likes: post.likes + 1
                             }))} className="bi bi-heart-fill me-2 text-danger"></i>
                         </div>
+                        <div>
+                            Dislikes: {post.dislikes}
+                            <i onClick={() => dispatch(updateTuitThunk({
+                                ...post,
+                                dislikes: post.dislikes + 1
+                            }))} className=" bi bi-hand-thumbs-down"></i>
+                        </div>
 
 
                         <div className="wd-clicked-like wd-flex-icon"><a href="#">
