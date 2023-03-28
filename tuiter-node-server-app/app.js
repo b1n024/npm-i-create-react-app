@@ -4,10 +4,11 @@ import HelloController
 import UserController
     from "./controllers/users/users-controller.js"
 import TuitController from "./controllers/tuits/tuits-controller.js"
-
+import cors from 'cors'
 const app = express()
 app.use(express.json());
+app.use(cors())
 TuitController(app)
 HelloController(app)
 UserController(app)
-app.listen(4000)
+app.listen(process.env.PORT ||4000)

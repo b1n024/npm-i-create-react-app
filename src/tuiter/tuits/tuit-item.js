@@ -1,7 +1,7 @@
 import {useDispatch} from "react-redux";
 import {deleteTuit} from "./tuits-reducer";
 import {deleteTuitThunk, updateTuitThunk} from "../../services/tuits-thunks";
-
+import '../home/index.css'
 
 const TuitItem = ({post}) => {
     const dispatch = useDispatch();
@@ -14,12 +14,12 @@ const TuitItem = ({post}) => {
         <div className='wd-paragraph-border '>
 
 
-            <img src={post.image} className="wd-avatar"/>
+            <img src=  {post.image} className="wd-avatar"/>
 
 
             <div className="wd-move-right">
                 <span className="wd-author-name">{post.userName} </span>
-                <span className="wd-author-handle">@{post.handle} · {post.time}</span>
+                <span className="wd-author-handle">{post.handle} · {post.time}</span>
                 <span><i className="bi bi-x-lg float-end "
                          onClick={() => deleteTuitHandler(post._id)}></i></span>
                 <div className="wd-content">

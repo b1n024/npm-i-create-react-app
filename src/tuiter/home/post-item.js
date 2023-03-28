@@ -1,5 +1,5 @@
 
-
+import './index.css'
 const PostItem = ({post}) =>{
     if (post.content) {
         return (
