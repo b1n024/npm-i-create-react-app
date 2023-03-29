@@ -3,6 +3,7 @@ import {deleteTuit} from "./tuits-reducer";
 import {deleteTuitThunk, updateTuitThunk} from "../../services/tuits-thunks";
 import '../home/index.css'
 
+
 const TuitItem = ({post}) => {
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
