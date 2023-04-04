@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE = 'https://tuiter-node-server-app-a8-mdyl.onrender.com';
+const API_BASE = 'https://tuiter-node-server-app-a8-mdyl.onrender.com/api';
 const TUITS_API = `${API_BASE}/tuits`;
 console.log(TUITS_API)
 
